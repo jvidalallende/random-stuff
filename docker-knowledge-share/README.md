@@ -31,25 +31,25 @@ Although this tutorial should work both on GNU/Linux/Mac OSX/Windows host, the
 instructions given will be based on an Ubuntu 16.04 host. However, it should
 not be difficult to adapt the commands to those on your host.
 
- 1. Install Git, Vagrant, and a Virtualbox on your host
+1. Install Git, Vagrant, and a Virtualbox on your host
 
- 2. Clone this repository to your local machine
+2. Clone this repository to your local machine
 
- user@host ~> git clone https://github.com/jvidalallende/random-stuff
+    user@host ~> git clone https://github.com/jvidalallende/random-stuff
 
- 3. Get into the *random-stuff/docker-knowledge-share* folder
+3. Get into the *random-stuff/docker-knowledge-share* folder
  
- user@host ~> cd random-stuff/docker-knowledge-share
+    user@host ~> cd random-stuff/docker-knowledge-share
 
- 4. Spin up the VM using vagrant
+4. Spin up the VM using vagrant
 
- user@host ~/random-stuff/docker-knowledge-share> vagrant up
+    user@host ~/random-stuff/docker-knowledge-share> vagrant up
 
- 5. Once vagrant finishes setting up and provisioning the VM, get into it:
+5.Once vagrant finishes setting up and provisioning the VM, get into it:
 
- user@host ~/random-stuff/docker-knowledge-share> vagrant ssh
+    user@host ~/random-stuff/docker-knowledge-share> vagrant ssh
 
- 6. You should see that the prompt has changed. You are now ready to go! Type 
+6. You should see that the prompt has changed. You are now ready to go! Type 
  the following command to verify that docker is correctly installed:
 
- ubuntu@ubuntu-xenial:~$ docker info
+    ubuntu@ubuntu-xenial:~$ docker info
